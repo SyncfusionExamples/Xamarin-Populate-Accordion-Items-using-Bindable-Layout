@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.XForms.Accordion;assembly=Syncfusion.Expander.XForms"
+             xmlns:local="clr-namespace:AccordionBindableLayout"
+             x:Class="AccordionBindableLayout.MainPage">
+
+    <ContentPage.BindingContext>
+        <local:ItemInfoRepository x:Name="viewModel"/>
+    </ContentPage.BindingContext>
+
+    <syncfusion:SfAccordion x:Name="Accordion" BindableLayout.ItemsSource="{Binding Info}">
+        <BindableLayout.ItemTemplate>
+            <DataTemplate>
+                <syncfusion:AccordionItem>
+                    <syncfusion:AccordionItem.Header>
+                        <Label Text="{Binding Name}"/>
+                    </syncfusion:AccordionItem.Header>
+                    <syncfusion:AccordionItem.Content>
+                        <Label Text="{Binding Description}"/>
+                    </syncfusion:AccordionItem.Content>
+                </syncfusion:AccordionItem>
+            </DataTemplate>
+        </BindableLayout.ItemTemplate>
+    </syncfusion:SfAccordion>
+</ContentPage>
