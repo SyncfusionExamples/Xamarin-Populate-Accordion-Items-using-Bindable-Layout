@@ -25,4 +25,4 @@ The [SfAccordion](https://help.syncfusion.com/cr/cref_files/xamarin/Syncfusion.E
 </ContentPage>   
 ```
 
-You can also refer our UG documentation to know more about [BindableLayout]().
+You can also refer our UG documentation to know more about [BindableLayout](https://help.syncfusion.com/xamarin/accordion/bindablelayout).
