@@ -164,9 +164,4 @@
       <Name>AccordionBindableLayout</Name>
     </ProjectReference>
   </ItemGroup>
-  <ProjectExtensions>
-    <VisualStudio>
-      <UserProperties XamarinHotReloadWrongLinkerErrorInfoBarAccordionBindableLayoutiOSHideInfoBar="True" />
-    </VisualStudio>
-  </ProjectExtensions>
 </Project>
