@@ -14,14 +14,10 @@
             <DataTemplate>
                 <syncfusion:AccordionItem>
                     <syncfusion:AccordionItem.Header>
-                        <Grid>
-                            <Label Text="{Binding Name}"/>
-                        </Grid>
+                        <Label Text="{Binding Name}"/>
                     </syncfusion:AccordionItem.Header>
                     <syncfusion:AccordionItem.Content>
-                        <Grid>
-                            <Label Text="{Binding Description}"/>
-                        </Grid>
+                        <Label Text="{Binding Description}"/>
                     </syncfusion:AccordionItem.Content>
                 </syncfusion:AccordionItem>
             </DataTemplate>
