@@ -22,12 +22,16 @@ namespace AccordionBindableLayout
             //DataTemplate ItemTemplate = new DataTemplate(() =>
             //{
             //    AccordionItem accordionItem = new AccordionItem();
+            //    var headerGrid = new Grid();
             //    var header = new Label();
             //    header.SetBinding(Label.TextProperty, new Binding("Name"));
-            //    accordionItem.Header = header;
+            //    headerGrid.Children.Add(header);
+            //    accordionItem.Header = headerGrid;
+            //    var contentGrid = new Grid();
             //    var content = new Label();
             //    content.SetBinding(Label.TextProperty, new Binding("Description"));
-            //    accordionItem.Content = content;
+            //    contentGrid.Children.Add(content);
+            //    accordionItem.Content = contentGrid;
             //    return accordionItem;
             //});
             //BindableLayout.SetItemTemplate(Accordion, ItemTemplate);
